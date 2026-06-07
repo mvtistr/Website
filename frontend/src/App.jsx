@@ -1,12 +1,14 @@
 import Header from "@components/Header/Header.jsx";
 import Footer from "@components/Footer/Footer.jsx";
 
+import AppRoutes from "@routes/AppRoutes.jsx";
+
 function App() {
   return (
     <div className="app-container">
       <Header />
       <main className="app-content">
-      <h1>Centro de Podología</h1>
+        <AppRoutes />
       </main>
       <Footer />
     </div>
